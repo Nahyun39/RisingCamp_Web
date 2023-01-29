@@ -92,7 +92,7 @@ button{
     line-height: 1.33;
     letter-spacing: normal;
     cursor: pointer;
-    color: rgb(95, 0, 128);
+    color: rgb(181, 181, 181);
 }
 
 .marketcurly.active{
@@ -121,7 +121,7 @@ button{
     font-weight: normal;
     line-height: 1.33;
     letter-spacing: normal;
-    color: rgb(181, 181, 181);
+    color: rgb(95, 0, 128);
     cursor: pointer;
     position: relative;
     margin-left: 10px;
@@ -300,7 +300,7 @@ nav{
     justify-content: center;
     -webkit-box-align: center;
     align-items: center;
-    margin-bottom: 27px;
+    margin-bottom: 267px;
     margin-top: 80px;
 }
 
@@ -323,7 +323,7 @@ nav{
     font-weight: normal;
     line-height: 1.45;
     letter-spacing: -0.2px;
-    margin-left: 30px;
+    margin-left: 22px;
     margin-top: 6px;
 }
 
@@ -332,8 +332,7 @@ nav{
 }
 
 .list-content img{
-    width: 100%;
-    height: 300x;
+    height: 290px;
     position: relative;
 }
 
@@ -409,3 +408,142 @@ nav{
     cursor: pointer;
 }
 
+.brand-container{
+    height: 409px;
+    background-color: rgb(244, 244, 244);
+}
+
+.brand-wrapper{
+    width: 1050px;
+    margin: 0px auto;
+    padding: 40px 0px;
+}
+
+
+.brand-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 267px;
+    margin-top: 80px;
+}
+
+.brand-wrapper a{
+    color: rgb(51, 51, 51);
+    font-size: 26px;
+    line-height: 1.15;
+    letter-spacing: -0.26px;
+    font-weight: 500;
+}
+
+.brand-wrapper a img{
+    vertical-align: top;
+    border: 0;
+}
+
+.brand-wrapper .list-content{
+    margin-right: 34px;
+    cursor: pointer;
+}
+
+.brand-wrapper .list-content h3{
+    text-align: center;
+}
+
+.brand-wrapper .list-sub{
+    margin-top: 40px;
+}
+
+.btn{
+    z-index: 100;
+    border: 0px;
+    outline: 0px;
+    width: 60px;
+    height: 60px;
+    top: calc(50% - 50px);
+    right: 0px;
+    transform: translate(50%, -50%) rotate(180deg);
+    cursor: pointer;
+    margin-top: 57px;
+    margin-left: -44px;
+}
+
+.list-title ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 37px;
+    margin-left: -30px;
+}
+
+.list-title button{
+    display: block;
+    background-color: rgb(247, 247, 247);
+    color: rgb(51, 51, 51);
+    padding: 10px 20px;
+    border-radius: 22px;
+    font-size: 13px;
+    height: 35px;
+    line-height: 16px;
+    margin: 0px 5px 7px;
+    cursor: pointer;
+}
+
+.list-title li:hover{
+    color: rgb(95, 0, 128);
+}
+
+.box{
+    margin: 0px auto;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 516px;
+    height: 56px;
+    border-radius: 3px;
+    border: 1px solid rgb(227, 227, 227);
+    cursor: pointer;
+}
+
+.banner{
+    margin: 0px auto;
+    width: 970px;
+}
+
+.banner-wrapper img{
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+}
+
+
+.white{
+    position: absolute;
+    padding: 0px 20px;
+    margin-top: -90px;
+    color: rgb(255, 255, 255);
+}
+
+.white h3{
+    font-size: 16.5px;
+    line-height: 23px;
+    font-weight: 500;
+    white-space: normal;
+}
+
+.white span{
+    font-size: 13px;
+}
+
+.md{
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    place-content: center;
+    width: 990px;
+    margin-top: 6px;
+    margin-left: -30px;
+}
