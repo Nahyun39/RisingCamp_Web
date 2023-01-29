@@ -286,3 +286,126 @@ nav{
     border-bottom: 1px grey rgb(51, 51, 51);
     box-shadow: rgb(0 0 0 / 7%) 0px 3px 4px 0px
 }
+
+.advertise{
+    width: 100%;
+    min-width: 1050px;
+    height: 370px;
+    object-fit: cover;
+}
+
+.list-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 27px;
+    margin-top: 80px;
+}
+
+.list-wrapper a{
+    color: rgb(51, 51, 51);
+    font-size: 26px;
+    line-height: 1.15;
+    letter-spacing: -0.26px;
+    font-weight: 500;
+}
+
+.list-wrapper a img{
+    vertical-align: top;
+    border: 0;
+}
+
+.list-wrapper p{
+    color: rgb(153, 153, 153);
+    font-size: 14.9px;
+    font-weight: normal;
+    line-height: 1.45;
+    letter-spacing: -0.2px;
+    margin-left: 30px;
+    margin-top: 6px;
+}
+
+.list-content{
+    margin-right: 20px;
+}
+
+.list-content img{
+    width: 100%;
+    height: 300x;
+    position: relative;
+}
+
+.list-content .cart{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-top: 237px;
+    margin-left: -55px;
+    cursor: pointer;
+}
+
+.list-sub{
+    display: flex;
+    width: 990px;
+    margin-top: 24px;
+}
+
+.list-content h3{
+    font-size: 15px;
+    line-height: 1.45;
+    font-weight: 400;
+    margin-top: 9px;
+    margin-bottom: 8px;
+}
+
+.list-content .percent{
+    color: rgb(250, 98, 47);
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 1.5;
+    margin-right: 6px;
+} 
+
+.list-content .won{
+    font-size: 15px;
+    color: rgb(51, 51, 51);
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+.xprice{
+    font-size: 13px;
+    text-decoration: line-through;
+    color: rgb(181, 181, 181);
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.review-btn{
+    display: flex;
+    padding-top: 6.5px;
+}
+
+.review-btn span{
+    font-size: 10px;
+    font-weight: 500;
+    color: rgb(153, 153, 153);
+    margin-left: -211px;
+}
+
+.next-btn{
+    z-index: 100;
+    border: 0px;
+    outline: 0px;
+    width: 60px;
+    height: 60px;
+    top: calc(50% - 50px);
+    right: 0px;
+    transform: translate(50%, -50%) rotate(180deg);
+    margin-left: 900px;
+    margin-top: -390px;
+    cursor: pointer;
+}
+
