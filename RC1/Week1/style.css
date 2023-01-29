@@ -547,3 +547,143 @@ nav{
     margin-top: 6px;
     margin-left: -30px;
 }
+
+.footer{
+    padding-top: 30px;
+    border-top: 1px solid rgb(247, 247, 247);
+}
+
+.footer-container{
+    width: 990px;
+    margin: 0px auto;
+}
+
+.footer-top{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+.left h2{
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 29px;
+}
+
+.phoneandtime{
+    display: block;
+    padding-bottom: 18px;
+    padding-top: 8px;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.phoneandtime span{
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.qa{
+    display: flex;
+    flex-direction: row;
+}
+
+.qa button{
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 3px;
+    width: 133px;
+    height: 38px;
+    line-height: 35px;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    
+}
+
+.qa{
+    margin-top: 2px;
+    color: rgb(153, 153, 153);
+    letter-spacing: -0.5px;
+    line-height: 16.8px;
+    font-size: 13px;
+}
+
+.email{
+    margin-top: 2px;
+    color: rgb(153, 153, 153);
+    letter-spacing: -0.5px;
+    line-height: 16.8px;
+    font-size: 11px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+
+.right .ul-list{
+    display: flex;
+    list-style-type: none;
+}
+
+.ul-list{
+    padding-bottom: 25px;
+    
+}
+
+.ul-list li{
+    font-size: 12.5px;
+    padding-right: 16px;
+    cursor: pointer;
+}
+
+.location{
+    font-size: 9.4px;
+    line-height: 18px;
+    color: rgb(153, 153, 153);
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.sns{
+    display: flex;
+}
+
+.sns img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.footer-middle{
+    border-top: 1px solid rgb(238, 238, 238);
+    padding: 26px 0px 33px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-middle button{
+    display: flex;
+    text-align: left;
+}
+
+.footer-middle button img{
+    width: 30px;
+    margin-right: 8px;
+}
+
+.footer-middle button p{
+    color: rgb(153, 153, 153);
+    font-size: 0.3px;
+}
+
+.footer-bottom{
+    padding: 20px 0px 30px;
+    font-size: 3px;
+    line-height: 15px;
+    text-align: center;
+    background-color: rgb(247, 247, 247);
+    color: rgb(153, 153, 153);
+}
