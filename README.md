@@ -6,7 +6,7 @@
 |---|---|------|--|-----|------|
 |**1주차** |1.25 ~ 2.1| OT 및 기초지식 | 뷰티컬리 클론코딩 | ☑️  |  |
 |2**주차** |2.1 ~ 2.8| React Intro |  |  |  |
-|3**주차** |.2.8 ~ 2.15| Life Cycle & Page Transition  |  |  |
+|3**주차** |2.8 ~ 2.15| Life Cycle & Page Transition  |  |  |
 |4**주차** |2.15 ~ 2.22| Redux & Styled-Component & 반응형 웹 설계 |  |  |  |
 |5**주차** |2.22 ~ 3.1| Network Intro & API |  |  |  |
 |6**주차** |3.1 ~ 3.8| Token & Restful |  |  |  |
