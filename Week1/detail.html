@@ -111,7 +111,11 @@
                     <dl class="first">
                         <dt class="first-title">상품 선택</dt>
                         <dd class="first-detail-box" style="margin-left: 77.5px;">
-                            <button class="coupon-btn"><span>상품을 선택해주세요</span><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-1636szt" focusable="false" aria-hidden="true" data-testid="ArrowDropDownIcon"><path d="M7 10l5 5 5-5z"></path></svg></button> 
+                            <div style="display: flex;">
+                                <button id="decrement">-</button>
+                                <span id="num">1</span>
+                                <button id="increment">+</button>
+                            </div>
                         </dd>
                     </dl>
 
@@ -273,5 +277,6 @@
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

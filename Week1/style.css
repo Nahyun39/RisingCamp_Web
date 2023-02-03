@@ -71,6 +71,7 @@ button{
     display: flex;
     padding-top: 36px;
     height: 100px;
+    width: 1050px;
     justify-content: space-between;
 }
 
@@ -329,10 +330,13 @@ nav{
 
 .list-content{
     margin-right: 20px;
+    width: 1050px;
 }
 
 .list-content img{
     height: 290px;
+    width: 235px;
+    justify-content: space-between;
     position: relative;
 }
 
@@ -347,8 +351,16 @@ nav{
 
 .list-sub{
     display: flex;
-    width: 990px;
+    width: 1050px;
     margin-top: 24px;
+    justify-content: space-between;
+}
+
+.brand-sub{
+    display: flex;
+    width: 960px;
+    margin-top: 24px;
+    justify-content: space-between;
 }
 
 .list-content h3{
@@ -397,24 +409,22 @@ nav{
 .next-btn{
     z-index: 100;
     border: 0px;
-    outline: 0px;
     width: 60px;
     height: 60px;
     top: calc(50% - 50px);
     right: 0px;
     transform: translate(50%, -50%) rotate(180deg);
-    margin-left: 900px;
+    margin-left: 938px;
     margin-top: -390px;
     cursor: pointer;
 }
 
 .brand-container{
-    height: 409px;
+    height: 350px;
     background-color: rgb(244, 244, 244);
 }
 
 .brand-wrapper{
-    width: 1050px;
     margin: 0px auto;
     padding: 40px 0px;
 }
@@ -427,7 +437,7 @@ nav{
     -webkit-box-align: center;
     align-items: center;
     margin-bottom: 267px;
-    margin-top: 80px;
+    margin-top: 150px;
 }
 
 .brand-wrapper a{
@@ -458,17 +468,16 @@ nav{
 
 .btn{
     z-index: 100;
-    border: 0px;
-    outline: 0px;
     width: 60px;
     height: 60px;
     top: calc(50% - 50px);
-    right: 0px;
+
     transform: translate(50%, -50%) rotate(180deg);
     cursor: pointer;
-    margin-top: 57px;
-    margin-left: -44px;
+    margin-left: 925px;
+    margin-top: -107px;
 }
+
 
 .list-title ul{
     display: flex;
@@ -488,10 +497,6 @@ nav{
     line-height: 16px;
     margin: 0px 5px 7px;
     cursor: pointer;
-}
-
-.list-title li:hover{
-    color: rgb(95, 0, 128);
 }
 
 .box{
@@ -541,8 +546,7 @@ nav{
 .md{
     display: flex;
     flex-wrap: wrap;
-    -webkit-box-pack: center;
-    place-content: center;
+    place-content: center; 
     width: 990px;
     margin-top: 6px;
     margin-left: -30px;
