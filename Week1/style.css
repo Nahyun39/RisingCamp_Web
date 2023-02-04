@@ -288,11 +288,68 @@ nav{
     box-shadow: rgb(0 0 0 / 7%) 0px 3px 4px 0px
 }
 
-.advertise{
+#left{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 50%;
+    margin: auto 590px auto 0px;
+    z-index: 10;
+    width: 52px;
+    height: 52px;
+    transition: all 0.5s ease 0s;
+    transform: rotate(180deg);
+    cursor: pointer;
+
+}
+
+#right{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 50%;
+    margin-top: 143px;
+    margin-left: 543px;
+    z-index: 10;
+    width: 52px;
+    height: 52px;
+    cursor: pointer;
+}
+
+.advertise-wrapper .advertise{
+    white-space: nowrap; 
+    overflow: hidden; 
+    scroll-behavior: smooth;
+    position: relative; 
+}
+
+.advertise .advertise-img{
+    width: 100%;
+    min-width: 1050px;
+    height: 370px;
+    flex-shrink: 0; 
+    object-fit: cover;
+}
+
+.advertise .animated{
+    transition: 0.5s ease-out;
+}
+
+.advertise-wrapper{
     width: 100%;
     min-width: 1050px;
     height: 370px;
     object-fit: cover;
+}
+
+
+.advertise .dragging{
+    scroll-behavior: auto;
+    cursor: grab;
+}
+
+.advertise .dragging .advertise-img{
+    pointer-events: none;
 }
 
 .list-wrapper{
