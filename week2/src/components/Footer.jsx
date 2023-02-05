@@ -1,8 +1,10 @@
 import React from 'react'
 import '../css/Footer.css'
 
+
 const Footer = () => {
-  return (
+
+    return (
     <div>
         <div className='footer'>
             <div className='footer-container'>
@@ -43,11 +45,11 @@ const Footer = () => {
                             <li>이용안내</li>
                         </div>
                         <div className='location'>
-                            법인명 (상호) : 주식회사 컬리 | 사업자등록번호 : 261-81-23567 <span className='purple'>사업자정보 확인</span><br/>
+                            법인명 (상호) : 주식회사 컬리 | 사업자등록번호 : 261-81-23567 <span className='text-purple'>사업자정보 확인</span><br/>
                             통신판매업 : 제 2018-서울강남-01646호 | 개인정보보호책임자 : 이원준<br/>
                             주소 : 서울특별시 강남구 테헤란로 133, 18층(역삼동) | 대표이사 : 김슬아<br/>
-                            입점문의 : <span className='purple'>입점문의하기</span> | 제휴문위 : <span className='purple'>business@kurlycorp.com</span><br/>
-                            채용문의 : <span className='purple'>recruit@kurlycorp.com</span><br/>
+                            입점문의 : <span className='text-purple'>입점문의하기</span> | 제휴문위 : <span className='text-purple'>business@kurlycorp.com</span><br/>
+                            채용문의 : <span className='text-purple'>recruit@kurlycorp.com</span><br/>
                             팩스:070 - 7500 - 6098
                         </div>
                         <div className='sns'>
