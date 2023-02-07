@@ -1,0 +1,256 @@
+.list-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 267px;
+    margin-top: 80px;
+}
+
+.list-wrapper a{
+    color: rgb(51, 51, 51);
+    font-size: 26px;
+    line-height: 1.15;
+    letter-spacing: -0.26px;
+    font-weight: 500;
+}
+
+.list-wrapper a img{
+    vertical-align: top;
+    border: 0;
+}
+
+.list-wrapper p{
+    color: rgb(153, 153, 153);
+    font-size: 14.9px;
+    font-weight: normal;
+    line-height: 1.45;
+    letter-spacing: -0.2px;
+    margin-left: 22px;
+    margin-top: 6px;
+}
+
+.list-content{
+    margin-right: 20px;
+    width: 1050px;
+}
+
+.list-content img{
+    height: 290px;
+    width: 235px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.list-content .cart{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-top: 237px;
+    margin-left: -55px;
+    cursor: pointer;
+}
+
+.list-sub{
+    display: flex;
+    width: 1050px;
+    margin-top: 24px;
+    justify-content: space-between;
+}
+
+.brand-sub{
+    display: flex;
+    width: 960px;
+    margin-top: 24px;
+    justify-content: space-between;
+}
+
+.list-content h3{
+    font-size: 15px;
+    line-height: 1.45;
+    font-weight: 400;
+    margin-top: 9px;
+    margin-bottom: 8px;
+}
+
+.list-content .percent{
+    color: rgb(250, 98, 47);
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 1.5;
+    margin-right: 6px;
+} 
+
+.list-content .won{
+    font-size: 15px;
+    color: rgb(51, 51, 51);
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+.xprice{
+    font-size: 13px;
+    text-decoration: line-through;
+    color: rgb(181, 181, 181);
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.review-btn{
+    display: flex;
+    padding-top: 6.5px;
+}
+
+.review-btn span{
+    font-size: 10px;
+    font-weight: 500;
+    color: rgb(153, 153, 153);
+    margin-left: -211px;
+}
+
+.next-btn{
+    z-index: 100;
+    border: 0px;
+    width: 60px;
+    height: 60px;
+    top: calc(50% - 50px);
+    right: 0px;
+    transform: translate(50%, -50%) rotate(180deg);
+    margin-left: 938px;
+    margin-top: -390px;
+    cursor: pointer;
+}
+
+.brand-container{
+    height: 350px;
+    background-color: rgb(244, 244, 244);
+}
+
+.brand-wrapper{
+    margin: 0px auto;
+    padding: 40px 0px;
+}
+
+
+.brand-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 267px;
+    margin-top: 150px;
+}
+
+.brand-wrapper a{
+    color: rgb(51, 51, 51);
+    font-size: 26px;
+    line-height: 1.15;
+    letter-spacing: -0.26px;
+    font-weight: 500;
+}
+
+.brand-wrapper a img{
+    vertical-align: top;
+    border: 0;
+}
+
+.brand-wrapper .list-content{
+    margin-right: 34px;
+    cursor: pointer;
+}
+
+.brand-wrapper .list-content h3{
+    text-align: center;
+}
+
+.brand-wrapper .list-sub{
+    margin-top: 40px;
+}
+
+.btn{
+    z-index: 100;
+    width: 60px;
+    height: 60px;
+    top: calc(50% - 50px);
+
+    transform: translate(50%, -50%) rotate(180deg);
+    cursor: pointer;
+    margin-left: 925px;
+    margin-top: -107px;
+}
+
+
+.list-title ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 37px;
+    margin-left: -30px;
+}
+
+.list-title button{
+    display: block;
+    background-color: rgb(247, 247, 247);
+    color: rgb(51, 51, 51);
+    padding: 10px 20px;
+    border-radius: 22px;
+    font-size: 13px;
+    height: 35px;
+    line-height: 16px;
+    margin: 0px 5px 7px;
+    cursor: pointer;
+}
+
+.box{
+    margin: 0px auto;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 516px;
+    height: 56px;
+    border-radius: 3px;
+    border: 1px solid rgb(227, 227, 227);
+    cursor: pointer;
+}
+
+.banner{
+    margin: 0px auto;
+    width: 970px;
+}
+
+.banner-wrapper img{
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+}
+
+
+.white{
+    position: absolute;
+    padding: 0px 20px;
+    margin-top: -90px;
+    color: rgb(255, 255, 255);
+}
+
+.white h3{
+    font-size: 16.5px;
+    line-height: 23px;
+    font-weight: 500;
+    white-space: normal;
+}
+
+.white span{
+    font-size: 13px;
+}
+
+.md{
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center; 
+    width: 990px;
+    margin-top: 6px;
+    margin-left: -30px;
+}

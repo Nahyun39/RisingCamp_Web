@@ -3,7 +3,7 @@ import '../css/ProductDetail.css'
 import {useState, useEffect} from 'react';
 
 const ProductDetail = () => {
-    const price = 123300;
+    const price = 14800;
 
     const [count, setCount] = useState(0);
     const [total, setTotal] = useState(0);
@@ -21,7 +21,7 @@ const ProductDetail = () => {
     useEffect(() => {
         const totalPrice = price * count;
         setTotal(totalPrice.toLocaleString());
-    })
+    },[count])
 
     return (
     <div>
