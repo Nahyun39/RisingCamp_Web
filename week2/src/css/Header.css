@@ -211,6 +211,7 @@ button{
     padding-top: 18px;
     line-height: 20px;
     text-align: center;
+    margin-left: 10px;
 }
 
 .nav-item1{
@@ -257,6 +258,7 @@ button{
     font-weight: 550;
 }
 
+
 .mainNav span:hover{
     color:rgb(95, 0, 128);
     text-decoration: underline; color:rgb(95, 0, 128);
@@ -288,4 +290,24 @@ button{
 nav{
     border-bottom: 1px grey rgb(51, 51, 51);
     box-shadow: rgb(0 0 0 / 7%) 0px 3px 4px 0px
+}
+
+.deliver{
+    -webkit-box-align: center;
+    align-items: center;
+    font-weight: 600;
+    color: rgb(95, 0, 128);
+}
+
+.header-leftbtn{
+    margin-top: 12.5px;
+    height: 29.8px;
+    padding: 6.8px 16px;
+    border-radius: 16px;
+    border: 1px solid rgb(238, 238, 238);
+    color: rgb(102, 102, 102);
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.32px;
+
 }

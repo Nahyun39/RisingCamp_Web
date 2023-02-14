@@ -53,7 +53,9 @@ const Header = () => {
                 <li className="nav-item"><span>알뜰쇼핑</span></li>
                 <li className="nav-item"><span>특가/혜택</span></li>
             </ul>
-            <li className="nav-item"><span className="deliver">샛별·택배 <span class="grey">배송안내</span></span></li>
+            <div className='header-leftbtn'>
+              <span className="deliver">샛별·택배 </span>배송 안내
+            </div>
         </ul>
     </nav>
     </div>

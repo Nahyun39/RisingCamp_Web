@@ -72,12 +72,12 @@ const ProductDetail = () => {
                             <pre>증정품 소진 완료되어 이벤트 종료되었습니다. 구매 전 참고 부탁드립니다.</pre>
                         </dd>
                     </dl>
-                    <dl class="first">
-                        <dt class="first-title">상품 선택</dt>
-                        <dd class="first-detail-box">
-                            <div class="count">
+                    <dl className="first">
+                        <dt className="first-title">상품 선택</dt>
+                        <dd className="first-detail-box">
+                            <div className="count">
                                 <button id="decrement" onClick={decrementCount}></button>
-                                <span id="num">{count}</span>
+                                <span id="num-count">{count}</span>
                                 <button id="increment" onClick={incrementCount}></button>
                             </div>
                         </dd>
