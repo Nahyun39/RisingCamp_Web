@@ -40,7 +40,7 @@ const CartList = () => {
         }
     } 
 
-    useEffect(() => {
+    useEffect(() => { //마운팅 - count1,2,3이 변화할 때만 setTotal 함수 실행됨
         const totalPrice = price1 * count1 + price2 * count2 + price3 * count3;
         setTotal(totalPrice.toLocaleString());
     },[count1, count2, count3])
@@ -73,7 +73,7 @@ const CartList = () => {
                         </div>
                         <div class="count">
                             <button id="decrement" onClick={decrementCount1}></button>
-                            <span id="num">{count1}</span>
+                            <span id="num-count">{count1}</span>
                             <button id="increment" onClick={incrementCount1}></button>
                         </div>
                         <span className='price'>14,800원</span>
@@ -89,7 +89,7 @@ const CartList = () => {
                         </div>
                         <div class="count">
                             <button id="decrement" onClick={decrementCount2}></button>
-                            <span id="num">{count2}</span>
+                            <span id="num-count">{count2}</span>
                             <button id="increment" onClick={incrementCount2}></button>
                         </div>
                         <span className='price'>9,900원</span>
@@ -105,7 +105,7 @@ const CartList = () => {
                         </div>
                         <div class="count">
                             <button id="decrement" onClick={decrementCount3}></button>
-                            <span id="num">{count3}</span>
+                            <span id="num-count">{count3}</span>
                             <button id="increment" onClick={incrementCount3}></button>
                         </div>
                         <span className='price'>14,500원</span>

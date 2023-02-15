@@ -2,6 +2,7 @@ import React from 'react'
 import product from '../data/data.json'
 import Card from './Card'
 import '../css/ProductList.css'
+import {Link} from 'react-router-dom';
 
 const ProductList = () => {
     console.log(product);
@@ -44,7 +45,7 @@ const ProductList = () => {
                             product.productList2.map(products => {
                                 return(
                                     <div className='list-content'>
-                                        <img src={products.image}></img>
+                                        <Link to='/product'><img src={products.image}></img></Link>
                                         <img src={products.cartimage} className='cart'></img>
                                         <h3>{products.name}</h3>
                                         <span className="percent">{products.salesPercent}%</span><span className="won">{products.price.toLocaleString()}원</span>

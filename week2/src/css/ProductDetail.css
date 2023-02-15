@@ -257,7 +257,7 @@
 }
 
 
-#num-count{
+#num-count1{
     display: inline-flex;
     overflow: hidden;
     white-space: nowrap;
@@ -268,10 +268,10 @@
     color: rgb(51, 51, 51);
     text-align: center;
     width: 31px;
-    height: 28px;
+    height: 31px;
     line-height: 28px;
-    padding-top: 4.5px;
-    padding-left: 5px;
+    margin-left: 3px;
+    margin-top: 10px;
 }
 
 .cartwon{

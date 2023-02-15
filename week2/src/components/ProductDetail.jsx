@@ -18,9 +18,10 @@ const ProductDetail = () => {
         }
     } 
 
-    useEffect(() => {
+    useEffect(() => { //마운팅 - count가 변화할 때만 setTotal 함수 실행됨
         const totalPrice = price * count;
         setTotal(totalPrice.toLocaleString());
+        console.log('count 값 변화');
     },[count])
 
     return (
@@ -77,7 +78,7 @@ const ProductDetail = () => {
                         <dd className="first-detail-box">
                             <div className="count">
                                 <button id="decrement" onClick={decrementCount}></button>
-                                <span id="num-count">{count}</span>
+                                <span id="num-count1">{count}</span>
                                 <button id="increment" onClick={incrementCount}></button>
                             </div>
                         </dd>
