@@ -45,17 +45,8 @@
     font-size: 13.2px;
 }
 
-.title-purple{
-    font-size: 12px;
-    color: rgb(95, 0, 128);
-    line-height: 19px;
-    height: 19px;
-    letter-spacing: -0.5px;
-    margin-top: 14px;
-}
-
 .clean{
-    padding-top: 3px;
+    padding-top: 9px;
     font-size: 12.9px;
     font-weight: 400;
     color: rgb(181, 181, 181);
@@ -126,35 +117,6 @@
     top: 3px;
     font-size: 16px;
     font-weight: 550;
-}
-
-.definition{
-    margin-top: 20px;
-}
-
-.first{
-    display: flex;
-    flex-direction: row;
-    border-top: 1px solid rgb(244, 244, 244);
-    font-size: 13px; 
-    letter-spacing: -0.5px;
-    align-items: flex-start;
-    padding: 17px 0px 18px;
-    width: 100%;
-    border-bottom: 1px solid rgb(244, 244, 244);
-}
-
-.first-title{
-    color: rgb(102, 102, 102);
-}
-
-.sub-detail{
-    display: block;
-    font-size: 10px;
-    color: rgb(102, 102, 102);
-    padding-top: 4px;
-    line-height: 12px;
-    white-space: pre-line;
 }
 
 .first-detail{
@@ -342,7 +304,7 @@
     height: 50px;
     background-color:#5f0080;
     color: rgb(255, 255 ,255);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
     border-radius: 3px;
 }
@@ -377,15 +339,6 @@
     padding-top: 13.5px;
 }
 
-.letter{
-    color: #666;
-    padding-top: 3px;
-}
-
-.letter-first{
-    margin-top: 20px;
-}
-
 .text{
     margin-top: 50px;
     font-size: 16px;
@@ -411,6 +364,7 @@
 
 .text-edition{
     font-weight: 550;
+    margin-bottom: 13px;
 }
 
 .text-freejia{
@@ -420,10 +374,6 @@
 
 .soap-wrapper{
     margin-top: 20px;
-}
-
-.text-guide{
-    font-weight: 550;
 }
 
 .text-check{

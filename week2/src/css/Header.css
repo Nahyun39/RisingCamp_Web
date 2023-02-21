@@ -34,19 +34,6 @@ button{
     align-items: center;
 }
 
-.line{
-    width: 1px;
-    height: 13px;
-    margin: 0px 12px;
-    background-color: rgb(217, 217, 217);
-}
-
-.a1{
-    display: block;
-    color: rgb(95, 0, 128);
-    cursor: pointer;
-}
-
 .a2{
     display: block;
     cursor: pointer;
@@ -158,13 +145,6 @@ button{
 
 .logo{
     flex: 0 0 82px;
-}
-
-.header_content{
-    display: flex;
-    align-items: center;
-    -webkit-box-align: center;
-    height: 63px;
 }
 
 .marketcurly{
@@ -372,13 +352,6 @@ button{
 nav{
     border-bottom: 1px grey rgb(51, 51, 51);
     box-shadow: rgb(0 0 0 / 7%) 0px 3px 4px 0px
-}
-
-.deliver{
-    -webkit-box-align: center;
-    align-items: center;
-    font-weight: 600;
-    color: rgb(95, 0, 128);
 }
 
 .header-leftbtn{

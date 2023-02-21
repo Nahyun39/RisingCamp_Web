@@ -1,6 +1,39 @@
 import React from 'react'
+import styled from 'styled-components'
 import '../css/Footer.css'
 
+const Purple = styled.div`
+    color : purple;
+    margin-left: 4px;
+    margin-right: 4px;
+`
+
+const Space = styled.div`
+    display: flex;
+`
+
+const Button = styled.div`
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 3px;
+    width: 133px;
+    height: 38px;
+    line-height: 35px;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    color: black;
+    font-size: 13px;    
+    text-align: center;
+`
+
+const QA = styled.div`
+    display: flex;
+    flex-direction: row;
+    margin-top: 2px;
+    color: rgb(153, 153, 153);
+    letter-spacing: -0.5px;
+    line-height: 16.8px;
+    font-size: 13px;
+`
 
 const Footer = () => {
 
@@ -15,21 +48,21 @@ const Footer = () => {
                             1644-1107
                             <span className='qa-centerday'>월~토요일 오전 7시 - 오후 6시</span>
                         </strong>
-                        <div className="qa">
-                            <button>카카오톡 문의</button>
+                        <QA>
+                            <Button>카카오톡 문의</Button>
                             월~토요일 | 오전 7시 - 오후 6시<br/>
                             일/공휴일 | 오전 7시 - 오후 1시
-                        </div>
-                        <div className="qa">
-                            <button>1:1 문의</button>
+                        </QA>
+                        <QA>
+                            <Button>1:1 문의</Button>
                             365일<br/>
                             고객센터 운영시간에 순차적으로 답변드리겠습니다.
-                        </div>
-                        <div className="qa">
-                            <button>대량주문 문의</button>
+                        </QA>
+                        <QA>
+                            <Button>대량주문 문의</Button>
                             월~금요일 | 오전 9시 - 오후 6시<br/>
                             일/공휴일 | 낮 12시 - 오후 1시
-                        </div>
+                        </QA>
                         <div className="email">
                             비회원 문의 : help@kurlycorp.com<br/>
                             비회원 대량주문 문의 : kurlygift@kurlycorp.com
@@ -45,11 +78,11 @@ const Footer = () => {
                             <li>이용안내</li>
                         </div>
                         <div className='location'>
-                            법인명 (상호) : 주식회사 컬리 | 사업자등록번호 : 261-81-23567 <span className='text-purple'>사업자정보 확인</span><br/>
+                            <Space>법인명 (상호) : 주식회사 컬리 | 사업자등록번호 : 261-81-23567 <Purple>사업자정보 확인</Purple></Space>
                             통신판매업 : 제 2018-서울강남-01646호 | 개인정보보호책임자 : 이원준<br/>
                             주소 : 서울특별시 강남구 테헤란로 133, 18층(역삼동) | 대표이사 : 김슬아<br/>
-                            입점문의 : <span className='text-purple'>입점문의하기</span> | 제휴문위 : <span className='text-purple'>business@kurlycorp.com</span><br/>
-                            채용문의 : <span className='text-purple'>recruit@kurlycorp.com</span><br/>
+                            <Space>입점문의 : <Purple>입점문의하기</Purple> | 제휴문위 : <Purple>business@kurlycorp.com</Purple></Space>
+                            <Space>채용문의 : <Purple>recruit@kurlycorp.com</Purple></Space>
                             팩스:070 - 7500 - 6098
                         </div>
                         <div className='sns'>

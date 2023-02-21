@@ -35,30 +35,6 @@
     font-size: 14px;
 }
 
-.qa{
-    display: flex;
-    flex-direction: row;
-}
-
-.qa button{
-    border: 1px solid rgb(226, 226, 226);
-    border-radius: 3px;
-    width: 133px;
-    height: 38px;
-    line-height: 35px;
-    margin-bottom: 12px;
-    margin-right: 12px;
-    
-}
-
-.qa{
-    margin-top: 2px;
-    color: rgb(153, 153, 153);
-    letter-spacing: -0.5px;
-    line-height: 16.8px;
-    font-size: 13px;
-}
-
 .email{
     margin-top: 2px;
     color: rgb(153, 153, 153);
@@ -145,8 +121,4 @@
 
 .qa-centerday{
     margin-left: 19px;
-}
-
-.text-purple{
-    color: rgb(95, 0, 128);
 }
