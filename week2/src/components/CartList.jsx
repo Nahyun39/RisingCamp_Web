@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import {useState, useEffect} from 'react';
 import '../css/CartList.css'
 
+
 const MainContainer = styled.div`
     width: 1050px;
     margin: 0px auto;

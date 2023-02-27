@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import '../css/ProductDetail.css'
 import {useState, useEffect} from 'react';
+import useParams from 'react-router-dom';
 
 const TitlePurple = styled.div`
     font-size: 12px;
@@ -71,6 +72,7 @@ const ProductDetail = () => {
         setTotal(totalPrice.toLocaleString());
         console.log('count 값 변화');
     },[count])
+
 
     return (
     <div>

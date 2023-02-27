@@ -22,11 +22,18 @@ const MainTitle = styled.div`
     font-weight: 500;
 `
 
+const MainTitleimg = styled.img`
+    vertical-align: top;
+    border: 0;
+`
+
 const ListSub = styled.div`
     display: flex;
     width: 1050px;
     margin-top: 24px;
-    justify-content: space-between;   
+    justify-content: space-between; 
+
+
 `
 
 const Nextbtn = styled.button`
@@ -47,7 +54,7 @@ const ProductList = () => {
         <div>
             <div className='list-wrapper'>
                 <ListTitle>
-                    <MainTitle>프리미엄 헤어케어의 모든 것<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxwYXRoIGQ9Ik0wIDBoMzJ2MzJIMHoiLz4KICAgICAgICA8cGF0aCBkPSJtMTAuOTUyIDIzLjM4NCAyLjA5NiAyLjE0NiAxMC4wNTUtOS44MjUtOS43MDEtMTAuMjc4LTIuMTgyIDIuMDYgNy42NzcgOC4xMzN6IiBmaWxsPSIjMzMzIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz4KICAgIDwvZz4KPC9zdmc+Cg=="></img></MainTitle>
+                    <MainTitle>프리미엄 헤어케어의 모든 것<MainTitleimg src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxwYXRoIGQ9Ik0wIDBoMzJ2MzJIMHoiLz4KICAgICAgICA8cGF0aCBkPSJtMTAuOTUyIDIzLjM4NCAyLjA5NiAyLjE0NiAxMC4wNTUtOS44MjUtOS43MDEtMTAuMjc4LTIuMTgyIDIuMDYgNy42NzcgOC4xMzN6IiBmaWxsPSIjMzMzIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz4KICAgIDwvZz4KPC9zdmc+Cg=="></MainTitleimg></MainTitle>
                     <p className='subtitle1'>LOMA부터 아로마티카까지, 최대 55% 할인</p>
                 </ListTitle>
                 <ListSub>
@@ -55,7 +62,7 @@ const ProductList = () => {
                             product.productList1.map(products => {
                                 return(
                                     <div className='list-content' key={products.id}>
-                                        <img src={products.image}></img>
+                                        <Link to={`/product/${products.id}`}><img src={products.image}></img></Link>
                                         <img src={products.cartimage} className='cart'></img>
                                         <h3>{products.name}</h3>
                                         <span className="percent">{products.salesPercent}%</span><span className="won">{products.price.toLocaleString()}원</span>
@@ -74,7 +81,7 @@ const ProductList = () => {
             </div>
             <div className='list-wrapper'>
             <ListTitle>
-                <MainTitle>이주의 혜택✨<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxwYXRoIGQ9Ik0wIDBoMzJ2MzJIMHoiLz4KICAgICAgICA8cGF0aCBkPSJtMTAuOTUyIDIzLjM4NCAyLjA5NiAyLjE0NiAxMC4wNTUtOS44MjUtOS43MDEtMTAuMjc4LTIuMTgyIDIuMDYgNy42NzcgOC4xMzN6IiBmaWxsPSIjMzMzIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz4KICAgIDwvZz4KPC9zdmc+Cg=="></img></MainTitle>
+                <MainTitle>이주의 혜택✨<MainTitleimg src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxwYXRoIGQ9Ik0wIDBoMzJ2MzJIMHoiLz4KICAgICAgICA8cGF0aCBkPSJtMTAuOTUyIDIzLjM4NCAyLjA5NiAyLjE0NiAxMC4wNTUtOS44MjUtOS43MDEtMTAuMjc4LTIuMTgyIDIuMDYgNy42NzcgOC4xMzN6IiBmaWxsPSIjMzMzIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz4KICAgIDwvZz4KPC9zdmc+Cg=="></MainTitleimg></MainTitle>
                 <p className='subtitle2'>놓치면 후회할 아이템만 모아</p>
             </ListTitle>
                 <ListSub>
@@ -82,7 +89,7 @@ const ProductList = () => {
                             product.productList2.map(products => {
                                 return(
                                     <div className='list-content'>
-                                        <Link to='/product'><img src={products.image}></img></Link>
+                                        <Link to={`/product/${products.id}`}><img src={products.image}></img></Link>
                                         <img src={products.cartimage} className='cart'></img>
                                         <h3>{products.name}</h3>
                                         <span className="percent">{products.salesPercent}%</span><span className="won">{products.price.toLocaleString()}원</span>
@@ -101,7 +108,7 @@ const ProductList = () => {
             </div>
             <div className='list-wrapper'>
                 <ListTitle>
-                    <MainTitle>조회수 급상승<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxwYXRoIGQ9Ik0wIDBoMzJ2MzJIMHoiLz4KICAgICAgICA8cGF0aCBkPSJtMTAuOTUyIDIzLjM4NCAyLjA5NiAyLjE0NiAxMC4wNTUtOS44MjUtOS43MDEtMTAuMjc4LTIuMTgyIDIuMDYgNy42NzcgOC4xMzN6IiBmaWxsPSIjMzMzIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz4KICAgIDwvZz4KPC9zdmc+Cg=="></img></MainTitle>
+                    <MainTitle>조회수 급상승<MainTitleimg src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxwYXRoIGQ9Ik0wIDBoMzJ2MzJIMHoiLz4KICAgICAgICA8cGF0aCBkPSJtMTAuOTUyIDIzLjM4NCAyLjA5NiAyLjE0NiAxMC4wNTUtOS44MjUtOS43MDEtMTAuMjc4LTIuMTgyIDIuMDYgNy42NzcgOC4xMzN6IiBmaWxsPSIjMzMzIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz4KICAgIDwvZz4KPC9zdmc+Cg=="></MainTitleimg></MainTitle>
                     <p className='subtitle3'>1주일 간 높은 조회수를 기록한 트렌드 아이템</p>
                 </ListTitle>
                 <ListSub>
@@ -109,7 +116,7 @@ const ProductList = () => {
                             product.productList3.map(products => {
                                 return(
                                     <div className='list-content' key={products.id}>
-                                        <img src={products.image}></img>
+                                        <Link to={`/product/${products.id}`}><img src={products.image}></img></Link>
                                         <img src={products.cartimage} className='cart'></img>
                                         <h3>{products.name}</h3>
                                         <span className="percent">{products.salesPercent}%</span><span className="won">{products.price.toLocaleString()}원</span>
